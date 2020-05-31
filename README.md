@@ -2,7 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/32033405/83357553-fe53eb80-a3a7-11ea-894c-cd3e3df83627.png)
 
-Nuxt.js + processmd を使ったブログ。  
+Nuxt.js + processmd を使ったブログ。 
+
+こっから試せます（しょぼい）→ https://takusan23.github.io/NuxtBlog/
 
 # はじめて
 

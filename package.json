@@ -1,0 +1,23 @@
+{
+  "name": "nuxtblog",
+  "version": "1.0.0",
+  "description": "My cool Nuxt.js project",
+  "author": "takusan23",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --port 4545",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "md": "processmd contents/posts/**/*.md --stdout --outputDir contents/posts/json > contents/posts/summary.json"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "element-ui": "^2.4.11",
+    "@nuxtjs/pwa": "^3.0.0-0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "processmd": "^4.5.0"
+  }
+}

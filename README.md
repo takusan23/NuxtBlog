@@ -1,22 +1,40 @@
 # nuxtblog
 
-> My cool Nuxt.js project
+![image](https://user-images.githubusercontent.com/32033405/83357553-fe53eb80-a3a7-11ea-894c-cd3e3df83627.png)
 
-## Build Setup
+Nuxt.js + processmd を使ったブログ。  
 
-```bash
-# install dependencies
-$ npm install
+# はじめて
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```console
+npm install
+npm run dev
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# 記事追加
+
+`contents/posts/markdown`にMarkdownファイルを入れます。
+
+ターミナルで以下の一行を叩きます。
+
+```console
+npm run md
+```
+
+
+# 静的サイト生成
+
+```console
+npm run generate
+```
+
+distフォルダが出来てると思います。
+
+# ファイル構成
+- contents/posts/markdown
+    - Markdownファイルを入れる
+    - 入れたら `npm run md` 叩いてね
+- pages/posts/_slug.vue
+    - 記事の画面
+- pages/index.vue
+    - 記事一覧

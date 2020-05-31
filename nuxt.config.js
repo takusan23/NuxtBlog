@@ -71,9 +71,11 @@ export default {
     extend(config, ctx) {
     }
   },
+  router: {
+    base: '/NuxtBlog/'
+  },
   generate: {
     routes: generateDynamicRoutes,
     dir: 'docs',
-    base: '/NuxtBlog/'
   },
 }

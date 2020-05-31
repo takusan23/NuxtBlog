@@ -73,6 +73,7 @@ export default {
   },
   generate: {
     routes: generateDynamicRoutes,
-    dir: 'docs'
+    dir: 'docs',
+    base: '/NuxtBlog/'
   },
 }

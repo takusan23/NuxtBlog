@@ -68,10 +68,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   },
   generate: {
-    routes: generateDynamicRoutes
+    routes: generateDynamicRoutes,
+    dir: 'docs'
   },
 }

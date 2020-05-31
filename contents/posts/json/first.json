@@ -4,8 +4,8 @@
   "tags": [
     "JavaScript"
   ],
-  "bodyContent": "# Hello World",
-  "bodyHtml": "<h1>Hello World</h1>\n",
+  "bodyContent": "# Hello World\r\n\r\nこのサイトではNuxt.jsとprocessmdとElementを使ったブログです。\r\n\r\n\r\nちなみにこれは兵庫県警に逮捕されるJavaScript。\r\n```js\r\nwhile(true){\r\n    alert('何回閉じても無駄ですよ～')\r\n}\r\n```",
+  "bodyHtml": "<h1>Hello World</h1>\n<p>このサイトではNuxt.jsとprocessmdとElementを使ったブログです。</p>\n<p>ちなみにこれは兵庫県警に逮捕されるJavaScript。</p>\n<pre><code class=\"hljs\"><span class=\"hljs-keyword\">while</span>(<span class=\"hljs-literal\">true</span>){\n    alert(<span class=\"hljs-string\">'何回閉じても無駄ですよ～'</span>)\n}</code></pre>",
   "dir": "contents/posts/json",
   "base": "first.json",
   "ext": ".json",
